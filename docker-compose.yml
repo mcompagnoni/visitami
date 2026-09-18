@@ -1,0 +1,12 @@
+services:
+  backend:
+    build: ./visitami api
+    ports:
+      - "5000:5000"
+
+  frontend:
+    build: ./visitami
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
