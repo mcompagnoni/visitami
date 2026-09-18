@@ -18,4 +18,4 @@ docker-compose up --build
 
 5. Le credenziali test sono: 
 	- Username: utente@mail.com
-	- Password: pass
+	- Password: Pass
